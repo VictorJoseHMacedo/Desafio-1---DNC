@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+.head {
+  background: #303030;
+}
+
+.sobre-a-empresa{
+  padding: 9rem 0 6rem 3rem;
+  color: #fff;
+}
+
+.sobre-a-empresa h1 {
+  font-size: 60px;
+  font-weight: 600;
+  padding: 0 0 15px 0;
+}
+
+.sobre-a-empresa p {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0 0 0 10px;
+}
+
+/* Números da empresa */
+
+.container-secao {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.numeros-da-empresa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem 0 0 0;
+  background: #F9F9F9;
+}
+
+.numeros-da-empresa span {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.numeros-da-empresa p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* História da Empresa */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10rem;
+  background: #F5F5F5;
+}
+
+.historia-da-empresa {
+  display: flex;
+  flex-direction: column;
+}
+
+.historia-da-empresa h2 {
+  padding: 0 0 30px 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.historia-da-empresa p {
+  font-size: 24px;
+  font-weight: 300;
+  max-width: 750px;
+}
+
+/* Formulário */
+
+.formulario {
+  text-align: center;
+  padding: 6rem 3rem 0 3rem;
+  background: #303030;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+input {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 15px;
+  width: 400px;
+  margin: 0 0 30px 0;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+.botao-enviar {
+  background: #C07212;
+  border-radius: 10px;
+  width: 250px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+}
